@@ -1,1 +1,1 @@
-FROM go:latest
+FROM go:1.20.2
