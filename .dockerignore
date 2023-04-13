@@ -2,5 +2,5 @@
 .dockerignore
 .git
 .gitignore
-Dockerfile
-README.md
+.github
+*.md
