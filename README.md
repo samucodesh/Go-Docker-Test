@@ -19,6 +19,9 @@ This project is a simple Go application that demonstrates how to build and run a
    ```bash
    git remote add origin git@github.com:samucodesh/Go-Docker-Test.git
    ```
+> [!NOTE]
+> Replace `git@github.com:samucodesh/Go-Docker-Test.git` with your ssh link
+
 3. **Clone the repository:**
    ```bash
    git pull origin main
