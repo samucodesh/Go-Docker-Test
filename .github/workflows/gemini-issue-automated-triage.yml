@@ -56,7 +56,7 @@ jobs:
           private-key: '${{ secrets.APP_PRIVATE_KEY }}'
 
       - name: 'Run Gemini Issue Triage'
-        uses: './'
+        uses: 'google-github-actions/run-gemini-cli@v0'
         id: 'gemini_issue_triage'
         env:
           GITHUB_TOKEN: '${{ steps.generate_token.outputs.token || secrets.GITHUB_TOKEN }}'
@@ -81,7 +81,7 @@ jobs:
                 "run_shell_command(gh issue edit)"
               ],
               "telemetry": {
-                "enabled": true,
+                "enabled": false,
                 "target": "gcp"
               }
             }
